@@ -91,7 +91,6 @@ nav a{
    width:380px;
    margin-right: 100px;
    border-radius: 10% 10% 0 0;
-   
 }
 
 .banner-greeting{
@@ -126,6 +125,11 @@ nav a{
     font-size: 18px;
     font-weight: 400;
 }
+
+main{
+   max-width:1140px;
+   margin: 0 auto;
+}
 /* about section style */
 
 .about{
@@ -135,4 +139,12 @@ nav a{
     margin: 130px 0;
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
 
