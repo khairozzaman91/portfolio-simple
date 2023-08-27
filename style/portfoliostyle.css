@@ -12,6 +12,15 @@ nav {
 .text-primary{
     color: #FD6E0A;
 }
+
+.btn-contact{
+    background-color: #FFF8f3;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
 .btn-primary{
 
     border-radius: 5px;
@@ -28,6 +37,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px ;
 
 }
 
@@ -52,5 +62,20 @@ nav a{
     color: #474747 ;
     font-size: 20px;
    
+}
 
+/* header related style */
+
+.header{
+    background-color: #FFF8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+   width:350px;
 }
